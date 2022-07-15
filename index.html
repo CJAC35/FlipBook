@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vision of Oman 2040</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="title">Vision of Oman 2040</div>
+    <div class="content">
+      <div class="frontPage" id="frontPage">
+        <img src="./images/Page01.jpg" alt="Page01" />
+      </div>
+      <div class="backPage" id="backPage">
+        <img src="./images/Page02.jpg" alt="Page02" />
+      </div>
+    </div>
+    <div class="controls">
+      <i
+        id="leftIcon"
+        class="fa-solid fa-circle-left"
+        onclick="OnPreviousPageClick()"
+      ></i>
+      <i
+        id="rightIcon"
+        class="fa-solid fa-circle-right"
+        onclick="OnNextPageClick()"
+      ></i>
+      <i
+        id="homeIcon"
+        class="fa-solid fa-house"
+        onclick="OnHomePageClick()"
+      ></i>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
